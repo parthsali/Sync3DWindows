@@ -1,0 +1,15 @@
+{
+  "name": "threejs-multiwindow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "three": "^0.160.0",
+    "vite": "^5.0.8"
+  }
+}
