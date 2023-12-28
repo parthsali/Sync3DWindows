@@ -10,8 +10,9 @@ Sync3DWindows is a project crafted with Three.js, utilizing Local Storage to syn
 
 ## Demo Video
 
-Watch the demo video to see Sync3DWindows in action:
-[![Demo Video](DemoVideo.mp4)]
+Watch the demo video to see Sync3DWindows in action
+
+[Watch Demo Video](./DemoVideo.mp4)
 
 ## Setup Guide
 
