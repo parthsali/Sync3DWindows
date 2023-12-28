@@ -123,6 +123,13 @@ if (new URLSearchParams(window.location.search).get("clear")) {
         let t = getTime();
         windowManager.update();
 
+        let falloff = 0.05;
+        sceneOffset.x += (sceneOffsetTarget.x - sceneOffset.x) * falloff;
+        sceneOffset.y += (sceneOffsetTarget.y - sceneOffset.y) * falloff;
+
+        world.position.set(sceneOffset.x, sceneOffset.y, 0);
+
+        let wins = windowManager.getWindows();
 
 
         for (let i = 0; i < spheres.length; i++) {
